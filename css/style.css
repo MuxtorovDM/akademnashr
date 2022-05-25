@@ -1,0 +1,48 @@
+header{
+    width: 1440px;
+    height: 92px;
+}
+.nav-list-items a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+main{
+    width: 1440px;
+    height: 488px;
+    background: #252420;
+    
+}
+.main-text-headding{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.main-text-paragrf{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.main-text-link{
+    width: 152px;
+    height: 39px;
+    background: #FF7500;
+    text-decoration: none;
+
+}
+.main-img{
+    width: 510px;
+    height: 510px;
+}
