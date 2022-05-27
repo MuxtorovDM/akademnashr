@@ -1,6 +1,15 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header a{
+text-decoration: none;
+}
 
+.nav-list{
+    list-style: none;
+}
 .nav-list-items a{
-    text-decoration: none;
+ 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
