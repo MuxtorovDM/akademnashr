@@ -1,0 +1,143 @@
+/* Shrift uslublari
+font style - shrift uslubini aniqlaydi
+
+font-variant - qator harflarini qanday ko'rsatishni aniqlaydi
+
+font-weight - shriftning qalinligini o'rnatadi
+
+font-size - shrift o'lchovlarini aniqlaydi
+
+font-family - shrift oilasini o'rnatadi
+
+font-stretch - shriftning ingichka, normal yoki kengligini o'rnatadi 
+
+ 
+
+Matn uslublari
+letter-spacing - element chegarasida simvollar orasidagi intervalni aniqlaydi
+
+line-height - matnning qatorlar orasidagi oralig'ini o'rnatadi
+
+text-align - matnning gorizantal tekislanishini aniqlaydi
+
+text-indent - matn blokining 1-qatori xatboshisining qiymatini o'rnatadi
+
+text-shadow - matnga soya o'rnatadi, hamda uning parametrlarini ham
+
+word-spacing - so'zlar orasida oraliq o'rnatadi
+
+text-transform - matnning elementlar simvollarining katta yoki kichik bo'lishini boshqaradi
+
+text-decoration - matnning tagiga chizish, o'ziga chizish va o'zgarib turuvchi ko'rinishdagi oformleniyalarini qo'shadi
+
+  
+
+Fon uslublari
+background-color - element fon rangini o'rnatadi
+
+background-image - element uchun fon rasmini o'rnatadi
+
+background-size - berilgan qiymatga qarab fon rasmi masshtabini o'zgartiradi
+
+background-position - fon rasmining boshlang'ich o'rnini aniqlaydi
+
+background-repeat - fon rasmi qanchalik takrorlanishini aniqlaydi
+
+background-origin - fon rasmining pozitsiyalanish qamrovini aniqlaydi
+
+background-clip - fon rangi yoki fon rasmining chegaraga nisbatan qanday ko'rinishini aniqlaydi 
+
+background-attachment - fon rasmi elementning o'z ichiga oluvchilari bilan aylanishi yoki aylanmasligini o'rnatadi
+
+ 
+
+Ro'yxat uslublari
+list-style-type - har bir ro'yxat elementi uchun marker ko'rinishini o'zgartiradi
+
+list-style-position - matnga nisbatan marker qanday joylashishini aniqlaydi
+
+list-style-image - ro'yxat elementi markeri sifatida xizmat qiladigan ramning manzilini o'rnatadi
+
+ 
+
+BORDER uslublari
+border-width - elementning barcha tomonining yoki individual tomonining bir vaqting o'zidagi qalinligi
+
+border-style - element atrofi chegarasining stili
+
+border-color - element turli taraflarining chegarasi rangi
+
+border-spacing - ro'yxatdagi yacheykalari chegarasi orasidagi masofa
+
+border-collapse - ro'yxat yacheykalari atrofidagi chegaraning aks etishi
+
+ 
+
+Pozitsiyalanish uslublari
+clear - elementning qaysi tomonidan boshqa elementlarning aylanib o'tishi taqiqlanganligini o'rnatadi
+
+float - qaysi tarafdan elementning tekislanishi kerakligini o'rnatadi. Bunday holda qolgan elementlar ushbu elementni boshqa tarafidan aylanib o'tadi
+
+lift -  elementning pozitsiyalanishi uchun ota-ona elementining chap tomonidan farzand elementining chap tomonigacha bo'lgan masofani aniqlaydi
+
+top - elementning pozitsiyalanishi uchun ota-ona elementining yuqori tomonidan farzand elementining yuqori tomonigacha bo'lgan masofani aniqlaydi
+
+z-index - har bir element boshqa elementlarga nisbatan veb-sahifaning yuqori va past tarafida joylashishi mumkin, ularninig z-o'qi bo'yicha joylashuvini z-index boshqaradi
+
+position - elementing brauzer oynasiga yoki veb-sahifadagi boshqa elementlarga nisbatan pozitsiyalanish usulini o'rnatadi
+
+ 
+
+CSS kombinatorlari
+.parent .child - avlod selektori
+
+.parent>.child - farzand selektori
+
+.child+.sibling - qo'shni qarindosh selektor
+
+.child~.sibling - umumiy selektor
+
+.class1 .class2 - ikkita klasni tanlash
+
+ 
+
+CSS selektorlari
+* - barcha elementlar
+
+div - <div>
+
+.class - "class" klasining elementlari
+
+#id - identifikator
+
+A[ATTR] - <A> "ATTR" atributi bilan
+
+A[ATTR='X'] - <A>, qachonki ATTR "X"ga teng bo'lsa
+
+A[CLASS~='X'] - <A>, agar klas "X"ni o'z ichiga olgan ro'yxat bo'lsa
+
+A[LANG | ='EN'] - <A>, qachonki til "EN" dan boshlansa
+
+ 
+
+CSS padding
+padding-top - element o'z ichiga oluvchilarining yuqori tomonidan hudud o'lchovi
+
+padding-right - element o'z ichiga oluvchilarining o'ng tomonidan hudud o'lchovi
+
+padding-bottom - element o'z ichiga oluvchilarining pastki tomonidan hudud o'lchovi
+
+padding-left - element o'z ichiga oluvchilarining chap tomonidan hudud o'lchovi
+
+ 
+
+CSS margin
+margin-top - elementing yuqori tomonidan chetlashish qiymati
+
+margin-right - elementing o'ng tomonidan chetlashish qiymati
+
+margin-bottom - elementing pastki tomonidan chetlashish qiymati
+
+margin-left - elementing chap tomonidan chetlashish qiymati
+
+  */
