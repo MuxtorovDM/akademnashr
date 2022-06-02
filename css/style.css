@@ -5,12 +5,14 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+        margin-left: auto;
+        margin-right: auto;
 }
 .site-header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    width: 100%;
     background: #FFFFFF;
     border-top: 5px solid #ff7500;
 }
@@ -65,7 +67,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1440px;
+    width: 100%;
     background: #252420;
     color: #fff;
   
@@ -111,6 +113,7 @@ nav{
 }
 .features{
     padding: 210px 170px;
+    width: 100%;
 }
 .feature-head{
     width: 435px;
