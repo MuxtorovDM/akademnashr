@@ -10,7 +10,7 @@ body{
 }
 .container{
     width: 100%;
-    max-width: 1140px;
+    max-width: 1440px;
     padding-left: 30px;
     padding-right: 30px;
     margin-left: auto;
@@ -75,10 +75,13 @@ nav{
     align-items: center;
     background: #252420;
     color: #fff;
+    width: 100%;
   
 }
 .hero-content{
-    width: 390px;
+    width: 100%;
+    max-width: 1140px;
+    
   
 }
 .hero-line{
